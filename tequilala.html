@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Tequi Lala</title>
+
+    <style>
+
+        .container {
+            /* border: 1px solid black; */
+            box-sizing: border-box;
+        }
+        .bg::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(tequi-la-la.jpg);
+            z-index: -100;
+            background-size: cover;
+            background-position: center;
+            filter: brightness(45%);
+        }
+        /* ---------------------------- */
+        .menu {
+            /* border: 1px solid black; */
+            position: relative;
+            width: 60%;
+            height: 120px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-items: center;
+            justify-content:space-evenly;
+        }
+        .menu button a {
+            padding: 5px;
+            /* border: 1px solid black; */
+            font-weight: bold;
+            color: #fff;
+            font-size: 15px;
+        }
+        .menu button {
+            display: flex;
+        }
+        .logo img {
+            width: 8rem;
+            /* border: 1px solid black; */
+            margin-right: 300px;
+            margin-left: -15px;
+            margin-top: 5px;
+        }
+        /* ---------------------------- */
+        * a {
+            text-decoration: none;
+            padding: 20px 20px;
+            margin: 0 auto;
+            /* border: 1px solid black; */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        button {
+            padding: 5px 20px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            border: 0px;
+            background: transparent;
+            position: relative;
+            transition: all 0.25s ease;
+            /* border: 1px solid black; */
+        }
+        .home:hover::after {
+            width: 56%;
+        }
+        .home::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .about:hover::after {
+            width: 59%;
+        }
+        .about::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .car:hover::after {
+            width: 70%;
+        }
+        .car::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .irish:hover::after {
+            width: 66%;
+        }
+        .irish::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .tequi:hover::after {
+            width: 66%;
+        }
+        .tequi::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+/* ---------------------------------------------------------------------------------------------------- */
+        /* content */
+
+        .content {
+            width: 85%;
+            margin: 0 auto;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            display: flex;
+            justify-content: space-between;
+            /* border: 1px solid black; */
+        }
+        .content .header {
+            width: 50%;
+            position: relative;
+            /* border: 1px solid black; */
+        }
+        .content .header {
+            color: #fff;
+            /* border: 1px solid black; */
+        }
+        .content .header h3 {
+            margin: 0px 0px;
+            font-size: 3rem;
+            letter-spacing: 2px;
+            /* border: 1px solid black; */
+        }
+        .content .header h2 {
+            margin: 0 0px;
+            font-size: 2rem;
+            /* border: 1px solid black;  */
+        }
+        .content .header p {
+            /* margin: 0px 0px; */
+            opacity: .7;
+            /* border: 1px solid black; */
+        }
+        .content .header p a {
+            display: block;
+            background-color: #fff;
+            border-radius: 1rem;
+            width: 150px;
+            margin-left: 170px;
+            margin-right: auto;
+            margin-top: 2rem;
+            color: black;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="container bg">
+
+        <div class="menu">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+    
+            <button class="home">
+                <a href="#">HOME</a>
+            </button>
+            <button class="about">
+                <a href="#">ABOUT</a>
+            </button>
+            <button class="car">
+                <a href="#">FORUM</a>
+            </button>
+            <button class="irish">
+                <a href="#">IRISH PUB</a>
+            </button>
+            <button class="tequi">
+                <a href="#">TEQUI LA LA</a>
+            </button>
+        </div>
+
+        <div class="content">
+            <div class="header">
+                <h3>West Eclipse Boulevard</h3>
+                <h2>TEQUI</h2>
+                <h2>LA-LA</h2>
+                <p>จดทะเบียนการค้าภายใต้การบริหารจัดการของ Merakee Motorcycle Club เพื่อขยายธุระกิจของ Club <br>
+                    เป็นร้านนั่งชิลล์ขายเครื่องดื่มแอลกอฮอล์เกือบทุกชนิดเเละ<br>เปิดเพื่อบังหน้าเจ้าหน้าที่ตำรวจเพื่อค้าขายสิ่งผิดกฏหมายทุกชนิด<br>
+                    ตั้งอยู่ที่ Los Santos,East Vinewood, Mirror Park Boulevard 
+                    <a href="https://discord.gg/sdR9VPkhPh" target="_blank" class="header-btn">Join Discord</a>
+                </p>        
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

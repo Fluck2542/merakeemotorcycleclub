@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merakee Motorcycle Club</title>
+
+    <style>
+
+        .container {
+            /* border: 1px solid black; */
+            box-sizing: border-box;
+        }
+        .bg::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(4k_Dos-Chicanos_Thunderbike_Glatzzo-Michael-Rauscher78-1920x1280.jpg);
+            z-index: -100;
+            background-size: cover;
+            background-position: center;
+            filter: brightness(45%);
+        }
+        /* ---------------------------- */
+        .menu {
+            /* border: 1px solid black; */
+            position: relative;
+            width: 60%;
+            height: 120px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-items: center;
+            justify-content:space-evenly;
+        }
+        .menu button a {
+            padding: 5px;
+            /* border: 1px solid black; */
+            font-weight: bold;
+            color: #fff;
+            font-size: 15px;
+        }
+        .menu button {
+            display: flex;
+        }
+        .logo img {
+            width: 8rem;
+            /* border: 1px solid black; */
+            margin-right: 300px;
+            margin-left: -15px;
+            margin-top: 5px;
+        }
+        /* ---------------------------- */
+        * a {
+            text-decoration: none;
+            padding: 20px 20px;
+            margin: 0 auto;
+            /* border: 1px solid black; */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        button {
+            padding: 5px 20px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            border: 0px;
+            background: transparent;
+            position: relative;
+            transition: all 0.25s ease;
+            /* border: 1px solid black; */
+        }
+        .home:hover::after {
+            width: 56%;
+        }
+        .home::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .about:hover::after {
+            width: 59%;
+        }
+        .about::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .car:hover::after {
+            width: 70%;
+        }
+        .car::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .irish:hover::after {
+            width: 66%;
+        }
+        .irish::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .tequi:hover::after {
+            width: 56%;
+        }
+        .tequi::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+/* -------------------------------------------------------------------------------------------------- */
+         /* เนื้อหา */
+         .header-top {
+            margin-top: 50px;
+            padding: 50px 0px;
+            text-align: center;
+            color: #fff;
+            /* border: 1px solid black;  */
+            display: block;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .header-low p {
+            width: 600px;
+            height: 120px;
+            padding: 15px;
+            /* border: 1px solid black; */
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px ;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #fff;
+            border-radius: 1rem;
+        }
+        .header-low a {
+            display: block;
+            background-color: #fff;
+            border-radius: 1rem;
+            width: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2rem;
+            color: black;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        footer p {
+            border: 1px solid black;
+            width: 200px;
+            text-align: center;
+            border: 1px solid #fff;
+            border-radius: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 18rem;
+            color: #fff;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+/* -------------------------------------------------------------------------------------------------- */
+        /* Forum */
+        
+    </style>
+
+</head>
+<body>
+
+<div class="container bg">
+
+    <div class="menu">
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+
+        <button class="home">
+            <a href="#">HOME</a>
+        </button>
+        <button class="about">
+            <a href="#">ABOUT</a>
+        </button>
+        <button class="car">
+            <a href="#">FORUM</a>
+        </button>
+        <button class="irish">
+            <a href="#">IRISH PUB</a>
+        </button>
+        <button class="tequi">
+            <a href="#">TEQUI LA LA</a>
+        </button>
+    </div>   
+     
+    <div class="header">
+            <div class="header-top">
+                <h1>Welcome To Merakee Motorcycle Club</h1>
+            </div>
+        
+            <div class="header-low">
+                <p>Faction<br>ของเรานั้นสร้างขึ้นมาโดยใช้เพื่อเล่นในเกมทำมาจากประวัติของคลับที่ได้ก่อตั้งขึ้นมา <br>
+                    Club ของเรานั้นสร้างขึ้นมาโดยใช้เพื่อเล่นในเกมทำมาจากประวัติของคลับที่ได้ก่อตั้งมา เพื่อป้องกันไม่ให้กลุ่ม Motorcycle Club ของจริงนั้นเสื่อมเสีย
+                    เพื่อป้องกันไม่ให้สิ่งที่พวกเราทำ ส่งผลกระทบไปยังกลุ่ม Motorcycle Club ในชีวิตจริงๆ
+                    หรือบุลคลกลุ่มใดกลุ่มหนึ่ง
+                    กลุ่มเราจึงได้เขียนเรื่องราวขึ้นมาตาม Story ที่กลุ่มเราได้ดำเนินมา</p>
+                <a href="https://discord.gg/u2BcBWZGPf" target="_blank" class="header-btn">Join Discord</a>
+            </div>
+    </div>
+
+    <footer>
+        <p>&copy; date 4/10/2022</p>
+    </footer>
+    
+</div>
+    
+</body>
+</html>

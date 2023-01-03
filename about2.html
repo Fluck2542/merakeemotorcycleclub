@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Merakee Motorcycle Club</title>
+
+    <style>
+
+        .container {
+            /* border: 1px solid black; */
+            box-sizing: border-box;
+        }
+        .bg::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 320%;
+            height: 300%;
+            background-image: url(0.2.png);
+            z-index: -100;
+            background-size: cover;
+            background-position: center;
+            filter: brightness(45%);
+        }
+        /* ---------------------------- */
+        .menu {
+            /* border: 1px solid black; */
+            position: relative;
+            width: 60%;
+            height: 120px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-items: center;
+            justify-content:space-evenly;
+        }
+        .menu button a {
+            padding: 5px;
+            /* border: 1px solid black; */
+            font-weight: bold;
+            color: #fff;
+            font-size: 15px;
+        }
+        .menu button {
+            display: flex;
+        }
+        .logo img {
+            width: 8rem;
+            /* border: 1px solid black; */
+            margin-right: 300px;
+            margin-left: -15px;
+            margin-top: 5px;
+        }
+        /* ---------------------------- */
+        * a {
+            text-decoration: none;
+            padding: 20px 20px;
+            margin: 0 auto;
+            /* border: 1px solid black; */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        button {
+            padding: 5px 20px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            border: 0px;
+            background: transparent;
+            position: relative;
+            transition: all 0.25s ease;
+            /* border: 1px solid black; */
+        }
+        .home:hover::after {
+            width: 56%;
+        }
+        .home::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .about:hover::after {
+            width: 59%;
+        }
+        .about::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .car:hover::after {
+            width: 70%;
+        }
+        .car::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .irish:hover::after {
+            width: 66%;
+        }
+        .irish::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .tequi:hover::after {
+            width: 66%;
+        }
+        .tequi::after {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            width: 0%;
+            height: 5px;
+            background: #fff;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: all 0.25s ease;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        /* ------------------------------------------ */
+        .copone {
+            width: 1000px;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            /* border: 1px solid #fff; */
+            padding: 3rem;
+            text-align: center;
+            background-color: #fff;
+        }
+        .storyone {
+            margin: 100px 100px;
+            display: block;
+            border: 1px solid #fff;
+        }
+        .copone .story h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .copone .story p {
+            /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        }
+        </style>
+</head>
+<body>
+    
+    <div class="container bg">
+
+        <div class="menu">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+    
+            <button class="home">
+                <a href="#">HOME</a>
+            </button>
+            <button class="about">
+                <a href="#">ABOUT</a>
+            </button>
+            <button class="car">
+                <a href="#">FORUM</a>
+            </button>
+            <button class="irish">
+                <a href="#">IRISH PUB</a>
+            </button>
+            <button class="tequi">
+                <a href="#">TEQUI LA LA</a>
+            </button>
+        </div>
+
+    </div>
+
+    <header class="copone">
+        <div class="story">
+            <br>
+            <img src="logo.png" width="300px" alt="">
+            <br>
+            <h1 id="history">History of Merakee Motorcycle Club</h1>
+                <p>
+                    สมาชิกในกลุ่ม Merakee Motorcycle Club ได้พูดคุยกันถึงชื่อและแนวทางของคลับ จนสุดท้ายลงเอยด้วยการลงมติที่เป็นเอกฉันท์ว่า Merakee Motorcycle Club และพวกเขาก็ได้เรียกตัวเองว่าเป็นพวก 1% และได้ปักลงบนเสื้อกั๊กหรือที่เรียกกันว่าVest การแต่งตัวจะเป็น Style Chicano และได้แต่งรถเป็น Style Chicano ด้วยเช่นกันเพื่อบ่งบอกว่าพวกเขามีความชอบที่เหมือนกันและรักในการขับขี่รถ Motorcycle12ปีต่อมาสมาชิกบางคนเริ่มที่จะแยกย้ายออกไปใช้ชีวิตในแบบของตัวเองโดยที่ตำแหน่งสำคัญๆทิ้งว่างไว้เพื่อรอให้พวกเขากลับมา แต่สุดท้ายแล้วทุกคนก็ได้ถูกฆ่าตายโดยพวกที่เคยมีการปะทะกันเมื่อนานมาแล้วแต่พวกนั้นเป็นแค่สาขาที่แยกออกมา ชื่อของกลุ่มคนพวกนั้นคือ The Lost MC คลับ The Lost MC มีประวัติมาอย่างยาวนานและถิ่นที่ตั้งของสาขาหลักอาศัยอยู่ใน Los Santos เป็นรัฐหนึ่งของประเทศที่มีชือวา USA : Unitted States
+                </p>
+    
+                <br>
+                <img src="VYX-UT9B3bVN09BiWhbzX5bOwuNJEyfwN-9LBDV6X5xb_8g0vjR43MISczJimATCvR9_xQPUPSDlNK6qy5YaRoZ_gNR2Dgh1Hv36p7RuQFSAdyohLEc1SGBXofLsgFgQalZpXYNEGLrX8pXrAtyoq4g.png" width="300px" alt="">
+                <br>
+    
+                <p>
+                    และในปี ค.ศ.2022 Merakee Motorcycle Club ได้ย้ายถิ่นฐานมาก่อตั้งสาขาหลักขึ้นในเขต East Vinewood ถนน Mirror Park และได้ทำธุรกิจบาร์ Irish Pub ร่วมกันกับสมาชิกทั้งหมดที่ยังเหลืออยู่ในปี 2022 เป็นครั้งแรกที่กลุ่มคนในประเทศได้เจอกับกลุ่ม Motorcycle Club <br>
+                    กลุ่ม Motorcycle Club ได้มีบทบาทมากขึ้นในประเทศเนื่องด้วยการเปิดธุรกิจบาร์ Irish Pub จึงทำให้คนได้รู้จักและพวก Irish Pub ได้ประกาศตนว่าพวกตนเองคือกลุ่ม Merakee Motorcycle Club ในเขตพื้นที่ East Vinewood ที่มาแอบทำงานผิดกฏหมายและทำการเปิดกิจการบังหน้าตำรวจต่อมา Merakee Motorcycle Club ได้ประกาศจยึดครองพื้นที่ในเขต East Vinewood แถบนั้นทั้งหมด
+                </p>
+    
+                <br>
+                <img src="733eb8b31658ddcb.jpg" width="400px" alt="">
+                <br>
+    
+                <p>
+                    ซึ่งเป็นเขตเดียวกันกับที่ Merakee Motorcycle Club ได้ไปตั้งเป็นสถานที่เปิดกิจการบาร์ Irish Pub และประกาศว่าเป็นกลุ่ม Motorcycle Club เหมือนกันและจะทำการยึดพื้นที่ Clubhouse ของพวกThe Lost MC ให้ขึ้นเป็นสถานะที่พักและอาศัยของกลุ่ม Merakee Motorcycle Club จึงได้จัดการเปิดประชุมเรียกรวมจำนวนคนทั้งหมดที่เหลืออยู่ และได้คุยถึงแผนการล้มล้างพวก The Lost MC ในเขต East Vinewood เลยมีการจัดกำลังคนไปถล่ม Clubhouse ของพวก The Lost MC ได้สำเร็จและได้ยึดเป็นของ Merakee Motorcycle Club ในวันที่ February 4, 2022
+                </p>
+    
+                <br>
+                <img src="unknown_1.jpg" width="500px" alt="">
+                <br>
+                <img src="278073700_659840998416918_1794025828082055846_n_1.jpg" width="500px" alt="">
+                <br>
+    
+                <p>
+                    แต่ก็ยังมีพวกของ The Lost MC มาก่อกวนในถิ่นอาศัยของ Merakee Motorcycle Club อยู่เป็นประจำและได้พ้น Spray ที่มีสัญลักษณ์ประจำสโมสรของพวกนั้นไว้ที่กำแพงหน้าทางเข้า Clubhouse ที่ถูก Merakee Motorcycle Club ยึดไปได้อยู่เรื่อยๆ เรื่องราวนี้ก็ยังไม่จบสิ้นจนถึงทุกวันนี้และยังไม่มีการพูดคุยใดๆกันระหว่างทั้ง 2 คลับ ปัจจุบันสมาชิก Merakee Motorcycle Club ทำธุรกิจบาร์ Irish Pub บังหน้าและค้าขายของผิดกฏหมายที่หลังร้านเพื่อหารายได้เข้าคลับเเละอาศัยอยู่ในเขต East Vinewood ถนน Mirror Park (การปัก 1% อธิบายความหมาย 1% ของ Merakee Motorcycle Club คือ Biker 1% ที่เป็นเครื่องหมาย 1% เครื่องหมายของกลุ่มมอเตอร์ไซค์ ที่เป็นพวกหัวรุนแรง )
+                </p>
+                <p>
+                    ต่อมาได้อีกไม่นานนักสมาชิก(Member)ของกลุ่ม Merakee Motorcycle Club สาขา Mother Chapter ได้ประชุมหาลือกันเพื่อที่จะขยายธุระกิจออกไปซึ่งจะทำให้ Club มีเงินหมุนเวียนภายในองค์กรและนำมาใช้จ่ายภายใน Fection ได้มากขึ้น ทางด้านของ Bishop ได้เสนอให้เปิดเป็นร้านขายเครื่องดื่มแอลกอฮอล์เพิ่มอีกแห่งโดยมีชื่อว่า Tequi La-La ในเขต Vinewood ถนน West Eclipse Boulevard ซึ่งอยู่ฝั่งทางด้านทิศตะวันตกของทางร้าน Irish Pub ในส่วนของธุรกิจ Irish Pub ได้ยกให้ทาง Chapter California เป็นผู้ดูแลต่อ
+                </p>
+                <br>
+    
+            <h1 id="culture">Culture of Merakee Motorcycle Club</h1>
+                <p>
+                    ชาว Merakee Motorcycle Club ส่วนมากจะแต่งตัวแนว Chicano Maxican และคนในคลับ ส่วนใหญ่มักจะเกิดและเติบโตที่ Thai-Mexican ก็แปลว่าภาษาหลักส่วนใหญ่ของคนในคลับคือ ไทย-อังกฤษ นั้นเอง Merakee Motorcycle Club มักจะใช้ Motorcycle เป็นหลักและใช้ขับไป hangouts กันเป็นกลุ่ม ลักลอบส่งของผิดกฏหมายบ้างบางครั้ง ตามวัฒนธรรมของ Merakee Motorcycle Club ที่มีมาตั้งเเต่ดั้งเดิมทุกคนที่เข้าคลับจะต้องรักเเละชอบหรือมีมอเตอร์ไซค์ Harley Davidson เท่านั้น Merakee Motorcycle Club คือ "เราไม่ใช่แค่กลุ่มแก๊ง แต่เราคือพี่น้องและครอบครัว"สัญลักษณ์ของกลุ่ม Merakee Motorcycle Club เป็นรูปยมทูตถือเคียวอ่านหนังสือ  "ทุกคนเท่าเทียมกันในคลับและไม่ทำร้ายใครก่อน"
+                </p>
+    
+                <br>
+    
+                <p>Merakee ถูกนำชื่อมาจาก คำภาษาตุรกีที่ยืมมาจากภาษาอาหรับซึ่งมีความหมายหลากหลาย ความหมายของคำนี้คือ ความรักหรือความจงรักภักดีอย่างแท้จริง รวมถึง "ความรักและการดูแลอย่างมากโดยเฉพาะอย่างยิ่งกิจกรรม" 
+                </p>
+            </div>
+            
+        </div>
+    </header>
+</body>
+</html>
